@@ -1,15 +1,42 @@
+# Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.gradle/
 local.properties
+
+# Build output
+/build/
+.cxx/
+.externalNativeBuild/
+
+# MacOS junk
+.DS_Store
+
+# Captures
+/captures/
+
+# Kotlin/Java-specific
+*.class
+
+# Log files
+*.log
+
+# Generated files
+gen/
+out/
+
+# Google Services JSON (if using Firebase; include only if not uploading)
+# google-services.json
+
+# Crashlytics & Fabric files
+fabric.properties
+
+# Signing configs (optional, for security)
+# keystore.jks
+# *.jks
+
+# Node (if using React Native or Node scripts)
+node_modules/
+
+# VS Code
+.vscode/
